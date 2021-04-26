@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foto com legenda </title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .man-wapper {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        
+    }
+   .conteudo {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin: auto;
+        background-color: black;
+   }
+    figure > img{
+        width: 100%;       
+    }
+    figure > figcaption.legenda{
+        color: blue;
+        font-size: 40px;
+        
+    }
+    @media(max-width: 900px){
+        figure > figcaption.legenda{
+            font-size: 30px;
+        } 
+    }
+    @media(max-width: 600px){
+        figure > figcaption.legenda{
+            font-size: 20px;
+        } 
+    }
+</style>
+<body>
+    <div class="man-wapper">
+        <div class="conteudo">
+            <figure>
+                <img src="R6S_Wallpaper-05_1920x1080.jpg" alt="" srcset="">
+                <figcaption class="legenda"><b>Sou Legenda impressionante e interessante </figcaption>
+            </figure>
+        </div>
+
+    </div>
+</body>
+</html>
